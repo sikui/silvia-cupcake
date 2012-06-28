@@ -41,6 +41,6 @@
     		   'X-Mailer: PHP/' . phpversion();
 
 	mail( $email, $subject, $file, $headers, $email );
+    header( "Location: ./?success=true" );
 
-    header( 'Location: ./' ) ;
 ?>

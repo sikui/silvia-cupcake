@@ -5,6 +5,17 @@
 <meta charset="utf-8">
 <script type="text/javascript" src="libs/mootools-1.2.5-core-yc.js" ></script>
 <script type="text/javascript" src="validate.js" ></script>
+<script type="text/javascript">
+
+<?php
+
+    if (isset($_GET['success']) and $_GET['success'] === 'true') {
+        echo "alert('Success!')";
+    }
+
+?>
+
+</script>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <title>
 Heavenly Cupcake :: Homepage
@@ -80,7 +91,7 @@ Heavenly Cupcake :: Homepage
             <label for="mail"> Email : </label>
             <input type="text" id= "mail" name="email" /><br/>
             <label for="richiesta"> Richiesta/Commento* : </label>
-            <textarea name="testo" id="richiesta" rows="5" cols="40">Scrivici un messaggio</textarea>
+            <textarea name="testo" id="richiesta" rows="5" cols="40"></textarea>
             <input type="submit" value="Invia" />
         </form>
         </div>

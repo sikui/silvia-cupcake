@@ -13,6 +13,13 @@
 
 html {
     background-color : rgb(232, 213, 162);
+    
+    /*gradient to rgb(232, 213, 162);*/
+    /*
+    background-color : white;
+    background: url('./images/background.png') repeat-x;
+    background-size : auto 50em;
+    */
 
 }
 
@@ -20,7 +27,6 @@ body {
     overflow : auto;
     overflow-x:hidden;
     padding:0;
-    height: 83em;
 }
 
 div.site {
@@ -173,17 +179,14 @@ h3 {
 }
 
 textarea{
-    color: silver;
     font-size: 14px;
 }
-
 
 .footer{
     
     font-size: 10.5pt;
 	margin-left: 320px;
-	margin-top: 20px;
-    color: rgb ( 167, 133, 98 );
+    color: gray; /* rgb ( 167, 133, 98 );*/
 }
 
 .footer a {

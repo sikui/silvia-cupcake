@@ -91,7 +91,7 @@ div.contentStyle {
     background-position: 0em 0em;
     padding-left : 2em;
     line-height : 2em;
-    }
+}
 
 .menu ul li a {
     color: rgb ( 201, 1, 107 ) !important;
@@ -131,9 +131,6 @@ div.contentStyle {
 
 .contattiStyle{
     margin-top : 3em;
-    font-family: Title;
-    src: url('fonts/cherl.ttf');
-    font-size : 16px;
 }
 
 .contattiStyle form {
@@ -144,7 +141,6 @@ div.contentStyle {
     width : 200px;
     border-radius: 5px;
     height: 20px;
-
 }
 
 .contattiStyle input button {
@@ -160,10 +156,13 @@ div.contentStyle {
 }
 
 
-label {
+.contattiStyle label {
     float : left;
     width : 200px;
     color: rgb( 201, 1, 107 );
+    font-family: Title;
+    src: url('fonts/cherl.ttf');
+    font-size : 16px;
 }
 
 h3 {

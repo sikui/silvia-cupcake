@@ -24,11 +24,13 @@
 	$template = './template.txt';
 	$pattern = array();
 	$pattern[0] = '/{nomeUtente}/';
-	$pattern[1] = '/{cognomeUtente}/' ;
+	$pattern[1] = '/{cognomeUtente}/';
+    $pattern[2] = '/{messaggio}/';
 
 	$replacement = array();
 	$replacement[0] = $nome;
 	$replacement[1] = $cognome;
+    $replacement[2] = $richiesta;
 
 	$file = file_get_contents( $template );
 	$file = preg_replace( $pattern, $replacement, $file );
@@ -40,4 +42,5 @@
 
 	mail( $email, $subject, $file, $headers, $email );
 
+    header( 'Location: ./' ) ;
 ?>

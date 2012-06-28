@@ -3,8 +3,8 @@ function validateEmail( email ){
     var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
     if(reg.test(email) == false) {
         return false;
-   }
-   return true;
+    }
+    return true;
 }
 
 function validate(){
@@ -34,7 +34,9 @@ function validate(){
     else if ( ! validateEmail( document.formContatti.email.value ) ){
     
         alert('Email non valida. Si prega di inserire un indirizzo email valido del tipo me@example.com');
+        $(document.formContatti.email).highlight();
         return false;
+
     }
     // check se il campo richiesta non è vuoto
     else if ( document.formContatti.testo.value.trim() == "" ){
@@ -42,6 +44,7 @@ function validate(){
         alert( "Attenzione! il campo COMMENTO/RICHIESTA non puo' essere vuoto ");
         $(document.formContatti.testo).highlight();
         return false;
+
     }
     
     return true;

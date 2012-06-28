@@ -1,6 +1,9 @@
-Gentile {nomeUtente} {cognomeUtente} ,
+Gentile {nomeUtente} {cognomeUtente},
 
-Abbiamo ricevuto la richiesta che ci ha inviato.
+Abbiamo ricevuto la richiesta che ci ha inviato:
+
+{messaggio}
+
 La ringraziamo per averci contattato, le risponderemo al piú presto.
 
 Cordiali Saluti,

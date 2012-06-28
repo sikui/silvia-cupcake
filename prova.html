@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<script type="text/javascript" src="validate.js" ></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>
+Cupcake Dream :: Homepage
+</title>
+</head>
+
+<body>
+    <div id="header" class="headerStyle">
+        <span>Cupcake Dream</span>
+    </div>
+    <div id="corpo" class="corpoStyle" >
+        <div id="menu" class="menu" >
+            <ul>
+        <li> <a href="#" > Attivita' </a>
+        <li> <a href="#" > Cupcakes </a>
+        <li> <a href="#" > Componi il tuo cupcake! </a>
+        <li> <a href="#" > Contatti </a>
+        </ul>
+        </div>
+        <div id="content" class="contentStyle">
+            <img src="images/cake.jpg" class="imgStyle" />
+        <p>
+        La pasticceria <i> Cupcake Dream </i> vi da il benvenuto nel suo dolce mondo.. Un mondo fatto di profumi, di colori e di bonta'.
+        Ogni cupcake che sforniamo racconta un po' di noi e della passione che ci mettiamo nel creare i nostri dolcetti.
+        Siamo sicuri che da noi troverete l'accompagnamento ideale per ogni vostro momento: 
+        <ul>
+        <li>Il <i>capcake angelico </i> riuscira' a rilassarvi con il suo sapore delicato e con i suoi colori tenui;</li>
+        <li>Il <i>chocolate cupcake</i> fara' esplodere le vostre papille gustative e vi ricarichera' con la sua energia...</li>
+        </ul>
+            
+        </p>
+        <div id="contatti" class="contattiStyle">
+        <form name="formContatti"action="sendMail.php" method="POST">
+            Nome : <input type="text" name="nome" /> <br/>
+            Cognome : <input type="text" name="cognome" /><br/>
+            Email : <input type="text" name="email" /><br/>
+            
+            Richiesta : <textarea name="testo" rows="5" cols="40">
+            </textarea>
+            <input type="submit" value="Invia" />
+        </form> 
+        </div>
+        </div>
+    
+    </div>
+    
+
+</body>
+
+</html>

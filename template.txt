@@ -1,0 +1,8 @@
+Gentile {nomeUtente} {cognomeUtente} ,
+
+Abbiamo ricevuto la richiesta che ci ha inviato.
+La ringraziamo per averci contattato, le risponderemo al piú presto.
+
+Cordiali Saluti,
+
+Cupcake Dream Team.

@@ -1,0 +1,56 @@
+@font-face
+{
+    font-family: Title;
+    src: url('fonts/cherl.ttf');
+}
+
+body {
+    background-color : rgb(232, 213, 162); 
+}
+
+div.headerStyle {
+    height : 15em;
+    background : url('./images/cake_logo.png') no-repeat;
+    background-size : auto 15em;
+    padding-left : 20em;
+}
+
+div.headerStyle span {
+    font-family : Title;
+    font-size : 6em;
+    margin : 0;
+    padding-top : 4em;
+    border : 1px solid;
+}
+
+div.corpoStyle {
+
+}
+
+div.contentStyle {
+    height : 400px;
+    width: 60%;
+    margin-left : 20%;
+}
+
+div.contentStyle ul {
+    padding-left : 2em;
+}
+
+.menu{
+    width: 30%;
+    height : 200px;
+    float: left;
+    border : 1px solid green;
+}
+
+.imgStyle{
+    width: 15em;
+    float: right;
+}
+
+.contattiStyle{
+
+}
+
+
